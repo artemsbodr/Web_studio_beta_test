@@ -1,0 +1,9 @@
+@mixin flex-wrap () {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+@mixin flex-basis6 () {
+    flex-basis: calc((100% - 150px) / 6);
+}
+// Ну вот не знаю что сюда засунуть

@@ -1,0 +1,70 @@
+.hero-section__title {
+    width: 360px;
+    color: $white;
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.62;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+        margin-bottom: 30px;
+}
+@media screen and (min-width: 480px) {
+  .hero-section {
+    background-image: url(../../images/hero-mobile.jpg);
+    padding-top: 118px;
+    padding-bottom: 118px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero-section {
+    background-image: url(../../images/hero-bg-tablet.jpg);    
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero-section {
+    background-image: url(../../images/bg-hero-section.png);
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+  .hero-section__title {
+    font-size: 44px;
+    line-height: 1.36;
+    width: 696px;
+  
+  }
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+          .hero-section {
+            background-image: url(/images/bg-hero-section-2x.png);
+          }
+        }
+}
+
+// .hero-section {
+//     padding-top: 200px;
+//     padding-bottom: 200px;
+//     background-image: url(../images/bg-hero-section.png);
+//     max-width: 1600px;
+//     margin: 0 auto;
+//     background-size: cover;
+//     background-repeat: no-repeat;
+// }
+
+// .hero-section__title {
+//     color: $white;
+//     text-align: center;
+//     font-size: 44px;
+//     font-weight: 900;
+//     line-height: 1.36;
+//     letter-spacing: 2.64px;
+//     text-transform: uppercase;
+//     padding-bottom: 40px;
+//     width: 696px;
+//     margin: 0 auto;
+// }

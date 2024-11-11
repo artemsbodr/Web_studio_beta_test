@@ -1,0 +1,124 @@
+  .team-list {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+  }
+@media screen and (min-width: 480px) {
+    .team {
+    padding-bottom: 60px;
+    }
+    .team-list__img {
+            height: 460px;
+    }
+    .team-list__item {
+        border-radius: 0 0 4px 4px;
+    }
+  
+}
+@media screen and (min-width: 768px) {
+    .team-list {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        // column-gap: 30px;
+    }
+        .team-list__img {
+                height: 354px;
+            }
+  .team-list__item {
+    //  width: 367px;
+    flex-basis: calc((100% - 1 * 30px) / 2);
+   }
+                                
+}
+@media screen and (min-width: 1200px) {
+    .team-list__img {
+        height: 260px;
+    }
+    .team-list__item {
+        flex-basis: calc((100% - 90px) / 4);
+    }
+}
+.team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: $team-color;
+    gap: 30px;
+}
+
+.team-card {
+    padding-top: 30px;
+    text-align: center;
+    border-radius: 0px 0px 4px 4px;
+    background: #FFF;
+
+    /* material shadow v1 */
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.team-title {
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 1.08px;
+    padding-bottom: 50px;
+}
+
+.team-name {
+    color: $main-color;
+    font-size: 16px;
+    letter-spacing: 0.48px;
+    padding-bottom: 10px;
+}
+
+.team--desc {
+    color: $add-color;
+    font-size: 16px;
+    letter-spacing: 0.48px;
+    padding-bottom: 30px;
+}
+
+.team-list__item {
+    // flex-basis: calc((100% - 60px) / 4);
+}
+
+// .team-list__item+.team-list__item {
+//     margin-left: 30px;
+// }
+
+.icon-list {
+    display: flex;
+}
+
+.team-svg-list {
+    display: flex;
+    width: 206px;
+    padding-bottom: 30px;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.icon-item {
+    fill: #AFB1B8;
+    height: 20px;
+    width: 20px;
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.link-icon:hover,
+.link-icon:focus {
+    background-color: $accent-color;
+   
+}
+
+.link-icon:hover .icon-item {
+    fill: $white;
+}
+
+.link-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: block;
+    padding: 12px;
+}

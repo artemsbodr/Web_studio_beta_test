@@ -1,0 +1,144 @@
+@media screen and (min-width: 480px) {
+  .customers-section {
+    width: 450px;
+    height: 400px;
+    margin-top: 60px;
+  }
+  .customers-name {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: 0.03em;
+    padding-bottom: 30px;
+    text-align: center;
+            margin-top: 60px;
+    
+  }
+  .customers-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .customers-list__item {
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    width: 210px;
+    height: 92px;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+@media screen and (min-width: 768px) {
+  .customers-list__item {
+    flex-basis: calc((100% - 60px) / 3);
+  }
+  .customers-section {
+    width: 738px;
+    height: auto;
+padding-top: 60px;
+padding-bottom: 60px;
+   
+  }
+}
+@media screen and (min-width: 1200px) {
+    .customers-section {
+        width: 1200px;
+            height: auto;
+            // padding-top: 94px;
+                padding-bottom: 94px;
+    }
+    .customers-list__item {
+        width: 170px;
+        flex-basis: calc((100% - 150px) / 6);
+    }
+}
+.customers-section {
+  // width: 1170px;
+  // height: 184px;
+  margin: 0 auto;
+  // margin-bottom: 94px;
+}
+
+// .customers-name {
+//     font-family: var(--font-family);
+//     font-weight: 700;
+//     font-size: 36px;
+//     letter-spacing: 0.03em;
+//     text-align: center;
+//     // margin-top: 94px;
+//     // padding-bottom: 50px;
+// }
+
+.customers-list {
+  display: flex;
+  gap: 30px;
+}
+
+// .customers-list__item {
+//     border: 1px solid #afb1b8;
+//     border-radius: 4px;
+//     width: 170px;
+//     height: 92px;
+//     flex-basis: calc((100% - 150px) / 6);
+//     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+// }
+
+.customers-list__item:hover {
+  border-color: $accent-color;
+  box-shadow: 2px 2px 10px 2px black;
+}
+
+.customers-icon {
+  margin-left: 64px;
+  margin-right: 64px;
+  margin-top: 23px;
+  margin-bottom: 23px;
+  fill: #afb1b8;
+}
+
+.customers-item__link:hover .customers-icon {
+  color: $accent-color;
+  fill: $accent-color;
+}
+
+.ya-co {
+  width: 41px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.icon-company-tag-line-here {
+  width: 40px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.icon-company {
+  width: 45px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.icon-foster-peters {
+  width: 84px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.icon-brand {
+  width: 63px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.icon-company-tag-line {
+  width: 94px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}

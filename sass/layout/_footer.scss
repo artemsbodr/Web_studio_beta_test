@@ -1,0 +1,228 @@
+@media screen and (min-width: 480px) {
+  .logo-logo-footer {
+    padding-top: 60px;
+    width: 481px;
+  }
+  .footer-socials {
+    text-align: start;
+    margin-bottom: 60px;
+  }
+  .contacts-list {
+    margin-bottom: 60px;
+  }
+  .our-contacts {
+    margin: 0 auto;
+  }
+  .contacts-desc {
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+  }
+  .newsletter-title {
+    text-align: center;
+    
+  }
+  .newsletter-input {
+    width: 450px;
+    height: 50px;
+    font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 125%;
+        letter-spacing: 0.03em;   
+            margin-bottom: 20px;
+  }
+  .logo-footer__title {
+        font-weight: 700;
+            font-size: 24px;
+            letter-spacing: 0.03em;
+            text-align: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .logo-logo-footer {
+    width: 768px;
+    padding-top: 72px;
+  }
+  .footer-container {
+        display: flex;
+          justify-content: center;
+  }
+  .footer-socials {
+    text-align: start;
+      margin-bottom: 60px;
+      margin-left: 76px;
+      width: 232px;
+  }
+  .newsletter-input {
+    margin: 0 auto;
+      display: block;
+              margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+.logo-logo-footer {
+    width: auto ;
+    padding-top: 60px;
+  }
+.footer-position {
+    display: flex;
+      justify-content: center;
+    }
+        // .footer-container {
+        //   align-items: center;
+        // }
+ .our-contacts {
+      margin-left: 70px;
+    }
+    .contacts-desc {
+          text-align: left;
+    }
+.newsletter {
+      margin-left: 93px;
+    }
+    .newsletter-input {
+          width: 358px;
+                  margin-bottom: 0;
+    }
+    .newsletter-title {
+              text-align:left ;
+    }
+    .footer-form {
+          display: flex;
+
+    }
+
+}
+.logo-logo-footer {
+  background-color: $main-bg-color;
+  // padding-top: 72px;
+  padding-bottom: 60px;
+ 
+  // margin: 0 auto;
+}
+
+// .footer-position {
+//     display: flex;
+//     justify-content: space-between;
+// }
+
+.footer-item {
+  margin-top: 9px;
+}
+
+.footer-item + .footer-item {
+  margin-top: 9px;
+}
+
+.footer-addr {
+  min-width: 231px;
+}
+
+.logo-footer__title {
+  text-align: start;
+  color: #fff;
+  font-family: Raleway;
+//   font-size: 26px;
+//   letter-spacing: 0.78px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.google_link_text {
+  text-align: start;
+  color: $white;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
+  margin-bottom: 9px;
+}
+
+.phone {
+  text-align: start;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
+}
+.our-contacts {
+  width: 206px;
+  // padding-left: 70px;
+  // padding-right: 70px;
+  // margin-right: auto;
+}
+
+.contacts-desc {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $white;
+}
+
+.contacts-list {
+  display: flex;
+  gap: 12px;
+  padding-top: 20px;
+}
+
+.contacts-item__link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: block;
+  padding: 12px;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts-item__link:hover {
+  background-color: $accent-color;
+  box-shadow: 1px 1px 10px 1px black;
+}
+
+/* .contacts-item__link:hover , .contacts-item__link */
+.contacts-svg {
+  width: 20px;
+  height: 20px;
+  fill: $white;
+}
+
+.newsletter {
+//   width: 570px;
+//   height: 86px;
+}
+
+.newsletter-title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $white;
+  min-width: 207px;
+  padding-bottom: 20px;
+}
+
+.newsletter-input {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+//   width: 358px;
+//   height: 50px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: rgba(33, 150, 243, 0);
+  // margin-right: 12px;
+  padding-left: 15px;
+  color: $white;
+}
+.footer-form {
+  // display: flex;
+}
