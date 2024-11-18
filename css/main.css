@@ -560,7 +560,7 @@ a:active {
 
 @media screen and (min-width: 480px) {
   .hero-section {
-    background-image: url(../../images/hero-mobile.jpg);
+    background-image: url(/../images/hero-mobile.jpg);
     padding-top: 118px;
     padding-bottom: 118px;
     background-size: cover;
@@ -569,12 +569,12 @@ a:active {
 }
 @media screen and (min-width: 768px) {
   .hero-section {
-    background-image: url(../../images/hero-bg-tablet.jpg);
+    background-image: url(/../images/hero-bg-tablet.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
   .hero-section {
-    background-image: url(../../images/bg-hero-section.png);
+    background-image: url(/../images/bg-hero-section.png);
     padding-top: 200px;
     padding-bottom: 200px;
   }
@@ -590,73 +590,82 @@ a:active {
   }
 }
 @media screen and (min-width: 480px) {
-  .opportunities__flex,
   .opportunities-list__flex {
     display: block;
-  }
-  .opportunities-list__title {
-    font-family: var(--font-family);
-    font-weight: 700;
-    font-size: 14px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #212121;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 30px;
-  }
-  .opportunities-item {
-    width: 450px;
-  }
-  .opportunities-list__flex {
-    row-gap: 116px;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .opportunities-svg {
-    width: 70px;
-  }
-  .opportunities__div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 120px;
-  }
-  .opportunities-list__info {
-    width: 450px;
-    height: 50px;
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 171%;
-    letter-spacing: 0.03em;
-    color: #757575;
-  }
-  .antenna {
-    display: block;
-    height: 120px;
-    background-image: url(../images/opportunities-bg-color.jpg);
-    margin-bottom: 30px;
-  }
-  .clock {
-    display: block;
-    height: 120px;
-    background-image: url(../images/opportunities-bg-color.jpg);
-    margin-bottom: 30px;
-  }
-  .diagramm {
-    display: block;
-    height: 120px;
-    background-image: url(../images/opportunities-bg-color.jpg);
-    margin-bottom: 30px;
-  }
-  .astronaut {
-    display: block;
-    height: 120px;
-    background-image: url(../images/opportunities-bg-color.jpg);
-    margin-bottom: 30px;
   }
 }
+.opportunities-list__title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.opportunities-item {
+  width: 450px;
+}
+
+.opportunities-list__flex {
+  row-gap: 116px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.opportunities-svg {
+  width: 70px;
+}
+
+.opportunities__div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+}
+
+.opportunities-list__info {
+  width: 450px;
+  height: 50px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.antenna {
+  display: block;
+  height: 120px;
+  background-image: url(../images/opportunities-bg-color.jpg);
+  margin-bottom: 30px;
+}
+
+.clock {
+  display: block;
+  height: 120px;
+  background-image: url(../images/opportunities-bg-color.jpg);
+  margin-bottom: 30px;
+}
+
+.diagramm {
+  display: block;
+  height: 120px;
+  background-image: url(../images/opportunities-bg-color.jpg);
+  margin-bottom: 30px;
+}
+
+.astronaut {
+  display: block;
+  height: 120px;
+  background-image: url(../images/opportunities-bg-color.jpg);
+  margin-bottom: 30px;
+}
+
 @media screen and (min-width: 768px) {
   .opportunities__flex,
   .opportunities-list__flex {
@@ -723,12 +732,17 @@ a:active {
   .opportunities-item {
     width: 270px;
   }
+}
+@media screen and (min-width: 1200px) and (min-width: 480px) {
   .opportunities__div {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 450px;
     height: 120px;
   }
+}
+@media screen and (min-width: 1200px) {
   .opportunities {
     padding-top: 94px;
     padding-bottom: 222px;

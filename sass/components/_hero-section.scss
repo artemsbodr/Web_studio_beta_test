@@ -13,7 +13,7 @@
 }
 @media screen and (min-width: 480px) {
   .hero-section {
-    background-image: url(../../images/hero-mobile.jpg);
+    background-image: url(/../images/hero-mobile.jpg);
     padding-top: 118px;
     padding-bottom: 118px;
     background-size: cover;
@@ -22,12 +22,12 @@
 }
 @media screen and (min-width: 768px) {
   .hero-section {
-    background-image: url(../../images/hero-bg-tablet.jpg);    
+    background-image: url(/../images/hero-bg-tablet.jpg);    
   }
 }
 @media screen and (min-width: 1200px) {
   .hero-section {
-    background-image: url(../../images/bg-hero-section.png);
+    background-image: url(/../images/bg-hero-section.png);
     padding-top: 200px;
     padding-bottom: 200px;
   }

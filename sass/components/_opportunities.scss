@@ -1,8 +1,8 @@
 @media screen and (min-width: 480px) {
-  .opportunities__flex,
   .opportunities-list__flex {
     display: block;
   }
+    }
   .opportunities-list__title {
     font-family: var(--font-family);
     font-weight: 700;
@@ -84,7 +84,7 @@
 
     margin-bottom: 30px;
   }
-}
+
 @media screen and (min-width: 768px) {
   .opportunities__flex,
   .opportunities-list__flex {
@@ -152,11 +152,14 @@
   .opportunities-item {
     width: 270px;
   }
+  @media screen and (min-width: 480px) {
   .opportunities__div {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 450px;
     height: 120px;
+  }
   }
   .opportunities {
     padding-top: 94px;
